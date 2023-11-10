@@ -1,13 +1,12 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://8.222.225.41:1688/category_db
-    username: '{cipher}f8e150ceb01dcc619ff1b0cbbfe1fdbe50a4eaead23731105cbbf1ea755d738d'
-    password: '{cipher}5ac7ea83ec3883c9c3f0afdad7ac8ceb0cfe11bf65f97e418bf7c6568c5b71e4'
-
-    # url: jdbc:postgresql://localhost:5432/category_db 
-    # username: postgres
-    # password: 7890
+    # url: jdbc:postgresql://8.222.225.41:1688/category_db
+    # username: '{cipher}f8e150ceb01dcc619ff1b0cbbfe1fdbe50a4eaead23731105cbbf1ea755d738d'
+    # password: '{cipher}5ac7ea83ec3883c9c3f0afdad7ac8ceb0cfe11bf65f97e418bf7c6568c5b71e4'
+    url: jdbc:postgresql://8.222.225.41:1001/category_db
+    username: jamepostgres
+    password: jame321
   jpa:
     hibernate:
       ddl-auto: create-drop
